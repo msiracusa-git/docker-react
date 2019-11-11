@@ -12,7 +12,7 @@ script:
 
 
 deploy:
-  proviver: elasticbeanstalk
+  provider: elasticbeanstalk
   region: "us-west-2"
   app: "docker-react"
   env: "DockerReact-env"
